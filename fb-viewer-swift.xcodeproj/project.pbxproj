@@ -12,6 +12,9 @@
 		316F105019720B9400EDA87A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 316F104E19720B9400EDA87A /* Main.storyboard */; };
 		316F105219720B9400EDA87A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 316F105119720B9400EDA87A /* Images.xcassets */; };
 		316F105E19720B9400EDA87A /* fb_viewer_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316F105D19720B9400EDA87A /* fb_viewer_swiftTests.swift */; };
+		316F106D19720BB500EDA87A /* File.m in Sources */ = {isa = PBXBuildFile; fileRef = 316F106C19720BB500EDA87A /* File.m */; };
+		316F107019720BF900EDA87A /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 316F106E19720BF900EDA87A /* FacebookSDK.framework */; };
+		316F107119720BF900EDA87A /* FBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316F106F19720BF900EDA87A /* FBHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,10 @@
 		316F105719720B9400EDA87A /* fb-viewer-swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fb-viewer-swiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		316F105C19720B9400EDA87A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		316F105D19720B9400EDA87A /* fb_viewer_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fb_viewer_swiftTests.swift; sourceTree = "<group>"; };
+		316F106B19720BB400EDA87A /* fb-viewer-swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "fb-viewer-swift-Bridging-Header.h"; sourceTree = "<group>"; };
+		316F106C19720BB500EDA87A /* File.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = File.m; sourceTree = "<group>"; };
+		316F106E19720BF900EDA87A /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		316F106F19720BF900EDA87A /* FBHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				316F107019720BF900EDA87A /* FacebookSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,10 +84,14 @@
 			isa = PBXGroup;
 			children = (
 				316F104A19720B9400EDA87A /* AppDelegate.swift */,
+				316F106E19720BF900EDA87A /* FacebookSDK.framework */,
+				316F106F19720BF900EDA87A /* FBHelper.swift */,
 				316F104C19720B9400EDA87A /* ViewController.swift */,
 				316F104E19720B9400EDA87A /* Main.storyboard */,
 				316F105119720B9400EDA87A /* Images.xcassets */,
 				316F104819720B9400EDA87A /* Supporting Files */,
+				316F106C19720BB500EDA87A /* File.m */,
+				316F106B19720BB400EDA87A /* fb-viewer-swift-Bridging-Header.h */,
 			);
 			path = "fb-viewer-swift";
 			sourceTree = "<group>";
@@ -208,6 +220,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				316F106D19720BB500EDA87A /* File.m in Sources */,
+				316F107119720BF900EDA87A /* FBHelper.swift in Sources */,
 				316F104D19720B9400EDA87A /* ViewController.swift in Sources */,
 				316F104B19720B9400EDA87A /* AppDelegate.swift in Sources */,
 			);
@@ -325,9 +339,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/jonathanyu/Desktop/swift-fb-album-viewer/swift-fb-album-viewer",
+					"$(PROJECT_DIR)/fb-viewer-swift",
+				);
 				INFOPLIST_FILE = "fb-viewer-swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "fb-viewer-swift/fb-viewer-swift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -336,9 +358,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/jonathanyu/Desktop/swift-fb-album-viewer/swift-fb-album-viewer",
+					"$(PROJECT_DIR)/fb-viewer-swift",
+				);
 				INFOPLIST_FILE = "fb-viewer-swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "fb-viewer-swift/fb-viewer-swift-Bridging-Header.h";
 			};
 			name = Release;
 		};
