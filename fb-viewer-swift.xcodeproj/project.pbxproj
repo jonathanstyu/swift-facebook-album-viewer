@@ -1,931 +1,508 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>297428D3BCEB45718A9FC181</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Pods-fb-viewer-swift-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>30C95B2A19DB40E38CC3EDE6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5F05A6F7D89E4D1A8971608D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>316F103C19720B9400EDA87A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>316F104719720B9400EDA87A</string>
-				<string>316F105A19720B9400EDA87A</string>
-				<string>316F104619720B9400EDA87A</string>
-				<string>9D295489A9C54800A6165462</string>
-				<string>41429AFC23354C7CA095EF4D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>316F103D19720B9400EDA87A</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0600</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>Jonathan Yu</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>316F104419720B9400EDA87A</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>6.0</string>
-					</dict>
-					<key>316F105619720B9400EDA87A</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>6.0</string>
-						<key>TestTargetID</key>
-						<string>316F104419720B9400EDA87A</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>316F104019720B9400EDA87A</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-				<string>Base</string>
-			</array>
-			<key>mainGroup</key>
-			<string>316F103C19720B9400EDA87A</string>
-			<key>productRefGroup</key>
-			<string>316F104619720B9400EDA87A</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>316F104419720B9400EDA87A</string>
-				<string>316F105619720B9400EDA87A</string>
-			</array>
-		</dict>
-		<key>316F104019720B9400EDA87A</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>316F105F19720B9400EDA87A</string>
-				<string>316F106019720B9400EDA87A</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>316F104119720B9400EDA87A</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>316F106D19720BB500EDA87A</string>
-				<string>316F107119720BF900EDA87A</string>
-				<string>316F104D19720B9400EDA87A</string>
-				<string>316F104B19720B9400EDA87A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>316F104219720B9400EDA87A</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>30C95B2A19DB40E38CC3EDE6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>316F104319720B9400EDA87A</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>316F105019720B9400EDA87A</string>
-				<string>316F105219720B9400EDA87A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>316F104419720B9400EDA87A</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>316F106119720B9400EDA87A</string>
-			<key>buildPhases</key>
-			<array>
-				<string>B72EB17C499845D3BD738A2F</string>
-				<string>316F104119720B9400EDA87A</string>
-				<string>316F104219720B9400EDA87A</string>
-				<string>316F104319720B9400EDA87A</string>
-				<string>297428D3BCEB45718A9FC181</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>fb-viewer-swift</string>
-			<key>productName</key>
-			<string>fb-viewer-swift</string>
-			<key>productReference</key>
-			<string>316F104519720B9400EDA87A</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>316F104519720B9400EDA87A</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>fb-viewer-swift.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>316F104619720B9400EDA87A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>316F104519720B9400EDA87A</string>
-				<string>316F105719720B9400EDA87A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>316F104719720B9400EDA87A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>316F104A19720B9400EDA87A</string>
-				<string>316F106F19720BF900EDA87A</string>
-				<string>316F104C19720B9400EDA87A</string>
-				<string>316F104E19720B9400EDA87A</string>
-				<string>316F105119720B9400EDA87A</string>
-				<string>316F104819720B9400EDA87A</string>
-				<string>316F106C19720BB500EDA87A</string>
-				<string>316F106B19720BB400EDA87A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>fb-viewer-swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>316F104819720B9400EDA87A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>316F104919720B9400EDA87A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>316F104919720B9400EDA87A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>316F104A19720B9400EDA87A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>AppDelegate.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>316F104B19720B9400EDA87A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>316F104A19720B9400EDA87A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>316F104C19720B9400EDA87A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>ViewController.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>316F104D19720B9400EDA87A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>316F104C19720B9400EDA87A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>316F104E19720B9400EDA87A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>316F104F19720B9400EDA87A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>316F104F19720B9400EDA87A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>316F105019720B9400EDA87A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>316F104E19720B9400EDA87A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>316F105119720B9400EDA87A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Images.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>316F105219720B9400EDA87A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>316F105119720B9400EDA87A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>316F105319720B9400EDA87A</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>316F105E19720B9400EDA87A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>316F105419720B9400EDA87A</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>316F105519720B9400EDA87A</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>316F105619720B9400EDA87A</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>316F106419720B9400EDA87A</string>
-			<key>buildPhases</key>
-			<array>
-				<string>316F105319720B9400EDA87A</string>
-				<string>316F105419720B9400EDA87A</string>
-				<string>316F105519720B9400EDA87A</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>316F105919720B9400EDA87A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>fb-viewer-swiftTests</string>
-			<key>productName</key>
-			<string>fb-viewer-swiftTests</string>
-			<key>productReference</key>
-			<string>316F105719720B9400EDA87A</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.unit-test</string>
-		</dict>
-		<key>316F105719720B9400EDA87A</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>fb-viewer-swiftTests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>316F105819720B9400EDA87A</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>316F103D19720B9400EDA87A</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>316F104419720B9400EDA87A</string>
-			<key>remoteInfo</key>
-			<string>fb-viewer-swift</string>
-		</dict>
-		<key>316F105919720B9400EDA87A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>316F104419720B9400EDA87A</string>
-			<key>targetProxy</key>
-			<string>316F105819720B9400EDA87A</string>
-		</dict>
-		<key>316F105A19720B9400EDA87A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>316F105D19720B9400EDA87A</string>
-				<string>316F105B19720B9400EDA87A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>fb-viewer-swiftTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>316F105B19720B9400EDA87A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>316F105C19720B9400EDA87A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>316F105C19720B9400EDA87A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>316F105D19720B9400EDA87A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>fb_viewer_swiftTests.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>316F105E19720B9400EDA87A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>316F105D19720B9400EDA87A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>316F105F19720B9400EDA87A</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>316F106019720B9400EDA87A</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>316F106119720B9400EDA87A</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>316F106219720B9400EDA87A</string>
-				<string>316F106319720B9400EDA87A</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>316F106219720B9400EDA87A</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>9D295489A9C54800A6165462</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
-				<string>LaunchImage</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>/Users/jonathanyu/Desktop/swift-fb-album-viewer/swift-fb-album-viewer</string>
-					<string>$(PROJECT_DIR)/fb-viewer-swift</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>fb-viewer-swift/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SWIFT_OBJC_BRIDGING_HEADER</key>
-				<string>fb-viewer-swift/fb-viewer-swift-Bridging-Header.h</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>316F106319720B9400EDA87A</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>9D295489A9C54800A6165462</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
-				<string>LaunchImage</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>/Users/jonathanyu/Desktop/swift-fb-album-viewer/swift-fb-album-viewer</string>
-					<string>$(PROJECT_DIR)/fb-viewer-swift</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>fb-viewer-swift/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SWIFT_OBJC_BRIDGING_HEADER</key>
-				<string>fb-viewer-swift/fb-viewer-swift-Bridging-Header.h</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>316F106419720B9400EDA87A</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>316F106519720B9400EDA87A</string>
-				<string>316F106619720B9400EDA87A</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>316F106519720B9400EDA87A</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(BUILT_PRODUCTS_DIR)/fb-viewer-swift.app/fb-viewer-swift</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>fb-viewer-swiftTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUNDLE_LOADER)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>316F106619720B9400EDA87A</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(BUILT_PRODUCTS_DIR)/fb-viewer-swift.app/fb-viewer-swift</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>fb-viewer-swiftTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUNDLE_LOADER)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>316F106B19720BB400EDA87A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>fb-viewer-swift-Bridging-Header.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>316F106C19720BB500EDA87A</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>File.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>316F106D19720BB500EDA87A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>316F106C19720BB500EDA87A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>316F106F19720BF900EDA87A</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>FBHelper.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>316F107119720BF900EDA87A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>316F106F19720BF900EDA87A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>41429AFC23354C7CA095EF4D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>5F05A6F7D89E4D1A8971608D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5F05A6F7D89E4D1A8971608D</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-fb-viewer-swift.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>9D295489A9C54800A6165462</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-fb-viewer-swift.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Pods-fb-viewer-swift.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B72EB17C499845D3BD738A2F</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>316F103D19720B9400EDA87A</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30C95B2A19DB40E38CC3EDE6 /* libPods-fb-viewer-swift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F05A6F7D89E4D1A8971608D /* libPods-fb-viewer-swift.a */; };
+		312EFDB11976387F0068F53E /* FBUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312EFDB01976387F0068F53E /* FBUserModel.swift */; };
+		312EFDB3197638F90068F53E /* AlbumModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312EFDB2197638F90068F53E /* AlbumModel.swift */; };
+		312EFDB519763E250068F53E /* AlbumViewerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312EFDB419763E250068F53E /* AlbumViewerController.swift */; };
+		316F104B19720B9400EDA87A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316F104A19720B9400EDA87A /* AppDelegate.swift */; };
+		316F104D19720B9400EDA87A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316F104C19720B9400EDA87A /* ViewController.swift */; };
+		316F105019720B9400EDA87A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 316F104E19720B9400EDA87A /* Main.storyboard */; };
+		316F105219720B9400EDA87A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 316F105119720B9400EDA87A /* Images.xcassets */; };
+		316F105E19720B9400EDA87A /* fb_viewer_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316F105D19720B9400EDA87A /* fb_viewer_swiftTests.swift */; };
+		316F106D19720BB500EDA87A /* File.m in Sources */ = {isa = PBXBuildFile; fileRef = 316F106C19720BB500EDA87A /* File.m */; };
+		316F107119720BF900EDA87A /* FBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316F106F19720BF900EDA87A /* FBHelper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		316F105819720B9400EDA87A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 316F103D19720B9400EDA87A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 316F104419720B9400EDA87A;
+			remoteInfo = "fb-viewer-swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		312EFDB01976387F0068F53E /* FBUserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBUserModel.swift; sourceTree = "<group>"; };
+		312EFDB2197638F90068F53E /* AlbumModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumModel.swift; sourceTree = "<group>"; };
+		312EFDB419763E250068F53E /* AlbumViewerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumViewerController.swift; sourceTree = "<group>"; };
+		316F104519720B9400EDA87A /* fb-viewer-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fb-viewer-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		316F104919720B9400EDA87A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		316F104A19720B9400EDA87A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		316F104C19720B9400EDA87A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		316F104F19720B9400EDA87A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		316F105119720B9400EDA87A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		316F105719720B9400EDA87A /* fb-viewer-swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fb-viewer-swiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		316F105C19720B9400EDA87A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		316F105D19720B9400EDA87A /* fb_viewer_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fb_viewer_swiftTests.swift; sourceTree = "<group>"; };
+		316F106B19720BB400EDA87A /* fb-viewer-swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "fb-viewer-swift-Bridging-Header.h"; sourceTree = "<group>"; };
+		316F106C19720BB500EDA87A /* File.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = File.m; sourceTree = "<group>"; };
+		316F106F19720BF900EDA87A /* FBHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBHelper.swift; sourceTree = "<group>"; };
+		5F05A6F7D89E4D1A8971608D /* libPods-fb-viewer-swift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-fb-viewer-swift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D295489A9C54800A6165462 /* Pods-fb-viewer-swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fb-viewer-swift.xcconfig"; path = "Pods/Pods-fb-viewer-swift.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		316F104219720B9400EDA87A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30C95B2A19DB40E38CC3EDE6 /* libPods-fb-viewer-swift.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		316F105419720B9400EDA87A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		312EFDAF1976384E0068F53E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				312EFDB01976387F0068F53E /* FBUserModel.swift */,
+				312EFDB2197638F90068F53E /* AlbumModel.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		316F103C19720B9400EDA87A = {
+			isa = PBXGroup;
+			children = (
+				316F104719720B9400EDA87A /* fb-viewer-swift */,
+				316F105A19720B9400EDA87A /* fb-viewer-swiftTests */,
+				316F104619720B9400EDA87A /* Products */,
+				9D295489A9C54800A6165462 /* Pods-fb-viewer-swift.xcconfig */,
+				41429AFC23354C7CA095EF4D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		316F104619720B9400EDA87A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				316F104519720B9400EDA87A /* fb-viewer-swift.app */,
+				316F105719720B9400EDA87A /* fb-viewer-swiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		316F104719720B9400EDA87A /* fb-viewer-swift */ = {
+			isa = PBXGroup;
+			children = (
+				312EFDAF1976384E0068F53E /* Models */,
+				316F104A19720B9400EDA87A /* AppDelegate.swift */,
+				316F106F19720BF900EDA87A /* FBHelper.swift */,
+				316F104C19720B9400EDA87A /* ViewController.swift */,
+				312EFDB419763E250068F53E /* AlbumViewerController.swift */,
+				316F104E19720B9400EDA87A /* Main.storyboard */,
+				316F105119720B9400EDA87A /* Images.xcassets */,
+				316F104819720B9400EDA87A /* Supporting Files */,
+				316F106C19720BB500EDA87A /* File.m */,
+				316F106B19720BB400EDA87A /* fb-viewer-swift-Bridging-Header.h */,
+			);
+			path = "fb-viewer-swift";
+			sourceTree = "<group>";
+		};
+		316F104819720B9400EDA87A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				316F104919720B9400EDA87A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		316F105A19720B9400EDA87A /* fb-viewer-swiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				316F105D19720B9400EDA87A /* fb_viewer_swiftTests.swift */,
+				316F105B19720B9400EDA87A /* Supporting Files */,
+			);
+			path = "fb-viewer-swiftTests";
+			sourceTree = "<group>";
+		};
+		316F105B19720B9400EDA87A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				316F105C19720B9400EDA87A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		41429AFC23354C7CA095EF4D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F05A6F7D89E4D1A8971608D /* libPods-fb-viewer-swift.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		316F104419720B9400EDA87A /* fb-viewer-swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 316F106119720B9400EDA87A /* Build configuration list for PBXNativeTarget "fb-viewer-swift" */;
+			buildPhases = (
+				B72EB17C499845D3BD738A2F /* Check Pods Manifest.lock */,
+				316F104119720B9400EDA87A /* Sources */,
+				316F104219720B9400EDA87A /* Frameworks */,
+				316F104319720B9400EDA87A /* Resources */,
+				297428D3BCEB45718A9FC181 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "fb-viewer-swift";
+			productName = "fb-viewer-swift";
+			productReference = 316F104519720B9400EDA87A /* fb-viewer-swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		316F105619720B9400EDA87A /* fb-viewer-swiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 316F106419720B9400EDA87A /* Build configuration list for PBXNativeTarget "fb-viewer-swiftTests" */;
+			buildPhases = (
+				316F105319720B9400EDA87A /* Sources */,
+				316F105419720B9400EDA87A /* Frameworks */,
+				316F105519720B9400EDA87A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				316F105919720B9400EDA87A /* PBXTargetDependency */,
+			);
+			name = "fb-viewer-swiftTests";
+			productName = "fb-viewer-swiftTests";
+			productReference = 316F105719720B9400EDA87A /* fb-viewer-swiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		316F103D19720B9400EDA87A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Jonathan Yu";
+				TargetAttributes = {
+					316F104419720B9400EDA87A = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					316F105619720B9400EDA87A = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 316F104419720B9400EDA87A;
+					};
+				};
+			};
+			buildConfigurationList = 316F104019720B9400EDA87A /* Build configuration list for PBXProject "fb-viewer-swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 316F103C19720B9400EDA87A;
+			productRefGroup = 316F104619720B9400EDA87A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				316F104419720B9400EDA87A /* fb-viewer-swift */,
+				316F105619720B9400EDA87A /* fb-viewer-swiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		316F104319720B9400EDA87A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				316F105019720B9400EDA87A /* Main.storyboard in Resources */,
+				316F105219720B9400EDA87A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		316F105519720B9400EDA87A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		297428D3BCEB45718A9FC181 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-fb-viewer-swift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B72EB17C499845D3BD738A2F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		316F104119720B9400EDA87A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				316F106D19720BB500EDA87A /* File.m in Sources */,
+				312EFDB3197638F90068F53E /* AlbumModel.swift in Sources */,
+				316F107119720BF900EDA87A /* FBHelper.swift in Sources */,
+				316F104D19720B9400EDA87A /* ViewController.swift in Sources */,
+				316F104B19720B9400EDA87A /* AppDelegate.swift in Sources */,
+				312EFDB11976387F0068F53E /* FBUserModel.swift in Sources */,
+				312EFDB519763E250068F53E /* AlbumViewerController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		316F105319720B9400EDA87A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				316F105E19720B9400EDA87A /* fb_viewer_swiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		316F105919720B9400EDA87A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 316F104419720B9400EDA87A /* fb-viewer-swift */;
+			targetProxy = 316F105819720B9400EDA87A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		316F104E19720B9400EDA87A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				316F104F19720B9400EDA87A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		316F105F19720B9400EDA87A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		316F106019720B9400EDA87A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		316F106219720B9400EDA87A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D295489A9C54800A6165462 /* Pods-fb-viewer-swift.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/jonathanyu/Desktop/swift-fb-album-viewer/swift-fb-album-viewer",
+					"$(PROJECT_DIR)/fb-viewer-swift",
+				);
+				INFOPLIST_FILE = "fb-viewer-swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "fb-viewer-swift/fb-viewer-swift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		316F106319720B9400EDA87A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D295489A9C54800A6165462 /* Pods-fb-viewer-swift.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/jonathanyu/Desktop/swift-fb-album-viewer/swift-fb-album-viewer",
+					"$(PROJECT_DIR)/fb-viewer-swift",
+				);
+				INFOPLIST_FILE = "fb-viewer-swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "fb-viewer-swift/fb-viewer-swift-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		316F106519720B9400EDA87A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/fb-viewer-swift.app/fb-viewer-swift";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "fb-viewer-swiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		316F106619720B9400EDA87A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/fb-viewer-swift.app/fb-viewer-swift";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "fb-viewer-swiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		316F104019720B9400EDA87A /* Build configuration list for PBXProject "fb-viewer-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				316F105F19720B9400EDA87A /* Debug */,
+				316F106019720B9400EDA87A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		316F106119720B9400EDA87A /* Build configuration list for PBXNativeTarget "fb-viewer-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				316F106219720B9400EDA87A /* Debug */,
+				316F106319720B9400EDA87A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		316F106419720B9400EDA87A /* Build configuration list for PBXNativeTarget "fb-viewer-swiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				316F106519720B9400EDA87A /* Debug */,
+				316F106619720B9400EDA87A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 316F103D19720B9400EDA87A /* Project object */;
+}

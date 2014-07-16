@@ -20,7 +20,7 @@ class FBHelper{
         }
         else{
             let graphData = result.valueForKey("data") as Array
-            var albums:[AlbumModel] = AlbumModel[]()
+            var albums:[AlbumModel] = [AlbumModel]()
             for obj:FBGraphObject in graphData{
                 let desc = obj.description
                 println(desc)
@@ -55,9 +55,9 @@ class FBHelper{
         if let gotError = error{
             println(gotError.description)
         } else {
-            var pictures: [UIImage] = UIImage[]()
+            var pictures: [UIImage] = [UIImage]()
             let graphData = result.valueForKey("data") as Array
-            var albums:[AlbumModel] = AlbumModel[]()
+            var albums:[AlbumModel] = [AlbumModel]()
             
             for obj:FBGraphObject in graphData{
                 println(obj.description)
@@ -84,10 +84,10 @@ class FBHelper{
         let activeSession = FBSession.activeSession()
         let fbSessionState = activeSession.state
         
-        if(fbSessionState.value != fbSessionStateOpen.value && fbSessionState.value != fbSessionStateOpenTokenExtended.value){
+        if(fbSessionState.value != FBSessionStateOpen.value && fbSessionState.value != FBSessionStateOpenTokenExtended.value){
             let permission = ["basic_info", "email", "user_photos", "friends_photos"]
             
-            FBSession.openActiveSessionWithPublishPermissions(permission, defaultAudience: FBSessionDefaultAudienceFriends, allowLoginUI: true, completionHandler: self.fbhandler)
+            FBSession.openActiveSessionWithPublishPermissions(permission, defaultAudience: FBSessionDefaultAudienceFriends, allowLoginUI: true, completionHandler: self.fbHandler)
         }
     }
     
@@ -96,7 +96,7 @@ class FBHelper{
         self.fbsession?.close()
     }
     
-    func fbHandler(session:FBSession!, state:SessionState!, error:NSError!) {
+    func fbHandler(session:FBSession!, state:FBSessionState!, error:NSError!) {
         if let gotError = error{
             println(gotError.description)
         } else{
@@ -118,7 +118,7 @@ class FBHelper{
             let imageData = NSData(contentsOfURL: url)
             let image = UIImage(data: imageData)
             
-            println("userFBID: \(userFBID) Email \(email) \n firstName:\(firstName) \n image: \(image)")
+            println("userFBID: \(UserFBID) Email \(email) \n firstName:\(firstName) \n image: \(image)")
             
             var userModel = User(email: email, name: firstName, image: image)
             NSNotificationCenter.defaultCenter().postNotificationName("PostData", object: userModel, userInfo: nil);
