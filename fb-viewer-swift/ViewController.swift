@@ -24,6 +24,11 @@ class ViewController: UIViewController {
     
     @IBOutlet var btnLoginLogout: UIButton
     
+    @IBAction func facebookLogoutAction(sender: AnyObject){
+        self.fbHelper.logout()
+        self.btnLoginLogout.titleLabel.text = "Login to Facebook"
+    }
+    
     @IBAction func facebookLoginAction(sender: AnyObject){
         if(self.btnLoginLogout.titleLabel.text == "Login to Facebook"){
             fbHelper.login()
@@ -33,10 +38,11 @@ class ViewController: UIViewController {
     }
                             
     override func viewDidLoad() {
-        super.viewDidLoad()
-        
+
         NSNotificationCenter.defaultCenter().addObserver(self, selector: Selector("executeHandle:"), name: "PostData", object: nil)
         NSNotificationCenter.defaultCenter().addObserver(self, selector: Selector("executeAlbum:"), name: "AlbumNotification", object: nil)
+        
+        super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
 

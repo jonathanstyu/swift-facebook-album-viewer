@@ -19,9 +19,9 @@ class FBHelper{
             println(gotError.description)
         }
         else{
-            let graphData = result.valueForKey("data") as Array
+            let graphData = result.valueForKey("data") as NSArray
             var albums:[AlbumModel] = [AlbumModel]()
-            for obj:FBGraphObject in graphData{
+            for obj in graphData{
                 let desc = obj.description
                 println(desc)
                 
@@ -48,7 +48,14 @@ class FBHelper{
             }
             
             NSNotificationCenter.defaultCenter()?.postNotificationName("albumNotification", object: nil, userInfo: ["data":albums])
+
         }
+    }
+    
+    func fetchPhoto(link:String){
+        let fbRequest = FBRequest.requestForMe()
+        fbRequest.graphPath = link
+        fbRequest.startWithCompletionHandler(fetchPhotosHandler)
     }
     
     func fetchPhotosHandler(connection:FBRequestConnection!, result: AnyObject!, error: NSError!) {
@@ -56,10 +63,11 @@ class FBHelper{
             println(gotError.description)
         } else {
             var pictures: [UIImage] = [UIImage]()
-            let graphData = result.valueForKey("data") as Array
+            let graphData: NSArray = result.valueForKey("data") as NSArray
+            
             var albums:[AlbumModel] = [AlbumModel]()
             
-            for obj:FBGraphObject in graphData{
+            for obj in graphData{
                 println(obj.description)
                 let pictureURL = obj.valueForKey("picture") as String
                 let url = NSURL(string: pictureURL)
